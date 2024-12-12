@@ -1,0 +1,169 @@
+@import './fonts';
+
+body {
+	font-family: 'JetBrains Mono';
+	font-style: normal;
+	font-weight: 500;
+	background-color: $background;
+	color: $color;
+	font-size: 16px;
+}
+
+a {
+	color: $link;
+	&:hover,
+	&:focus-visible {
+		color: $logo-title;
+	}
+}
+
+.h1 {
+	color: $logo-title;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.h2 {
+	color: $link;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.h3 {
+	color: $link;
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.regular {
+	text-align: center;
+	font-size: 20px;
+}
+
+.subtitle {
+	font-style: italic;
+	color: $logo-title;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+input {
+	background-color: $background;
+	border: $border-think--color;
+	border-radius: 4px;
+	padding: 10px;
+	width: $width-100;
+	margin: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+#noResults {
+	display: none;
+	font-weight: bold;
+	text-align: center;
+	color: $error;
+}
+
+.btn {
+	margin: 10px 10px 0;
+	padding: 10px;
+	color: $link;
+	border: $border-think--color;
+	border-radius: 4px;
+	&:hover,
+	&:focus-visible {
+		color: $logo-title;
+		border-radius: 10px;
+	}
+}
+
+.card {
+	width: 50%;
+	height: 30dvw;
+	border-radius: 15px;
+	margin-left: 25dvw;
+}
+
+@media screen and (max-width: 900px) {
+	.h1 {
+		font-size: 44px;
+	}
+	.h2 {
+		font-size: 32px;
+	}
+	.h3 {
+		font-size: 18px;
+	}
+	.regular {
+		font-size: 16px;
+	}
+	.subtitle {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	.h1 {
+		font-size: 38px;
+	}
+	.h2 {
+		font-size: 28px;
+	}
+	.h3 {
+		font-size: 14px;
+	}
+	.regular {
+		font-size: 12px;
+	}
+	.subtitle {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.h1 {
+		font-size: 28px;
+	}
+	.h2 {
+		font-size: 20px;
+	}
+	.h3 {
+		font-size: 10px;
+	}
+	.regular {
+		font-size: 8px;
+	}
+	.subtitle {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.h1 {
+		font-size: 22px;
+	}
+	.h2 {
+		font-size: 16px;
+	}
+	.h3 {
+		font-size: 8px;
+	}
+	.regular {
+		font-size: 6px;
+	}
+	.subtitle {
+		font-size: 7px;
+	}
+}

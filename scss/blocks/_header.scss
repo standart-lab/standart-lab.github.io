@@ -1,0 +1,18 @@
+.header {
+	text-align: center;
+	// min-height: 300px;
+	background: linear-gradient(180deg, $background 11.98%, rgba(0, 0, 0, 0.38) 51.04%, $background 92.19%),
+		url(/imgs/background.jpg) center no-repeat;
+	background-size: 100%;
+	color: $header-color;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.description {
+	padding: 10px;
+	width: $width-100;
+}
