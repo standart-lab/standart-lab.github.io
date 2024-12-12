@@ -9,6 +9,10 @@ body {
 	font-size: 16px;
 }
 
+main {
+	margin-bottom: 20px;
+}
+
 a {
 	color: $link;
 	&:hover,
@@ -94,6 +98,7 @@ input {
 	height: 30dvw;
 	border-radius: 15px;
 	margin-left: 25dvw;
+	margin-top: 20px;
 }
 
 @media screen and (max-width: 900px) {
