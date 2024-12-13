@@ -163,7 +163,7 @@ a:hover, a:focus-visible {
 }
 
 .h1 {
-  color: #ff6961;
+  color: #ff4300;
   font-size: 50px;
   font-style: normal;
   font-weight: 800;
@@ -241,6 +241,12 @@ input {
   margin-top: 20px;
 }
 
+.description {
+  padding: 10px;
+  width: calc(100% - 20px);
+  color: #ff8000;
+}
+
 @media screen and (max-width: 900px) {
   .h1 {
     font-size: 44px;
@@ -258,7 +264,7 @@ input {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 600px) {
   .h1 {
     font-size: 38px;
   }
@@ -275,7 +281,7 @@ input {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .h1 {
     font-size: 28px;
   }
@@ -292,23 +298,6 @@ input {
     font-size: 9px;
   }
 }
-@media screen and (max-width: 400px) {
-  .h1 {
-    font-size: 22px;
-  }
-  .h2 {
-    font-size: 16px;
-  }
-  .h3 {
-    font-size: 8px;
-  }
-  .regular {
-    font-size: 6px;
-  }
-  .subtitle {
-    font-size: 7px;
-  }
-}
 .header {
   text-align: center;
   background: linear-gradient(180deg, #42372d 11.98%, rgba(0, 0, 0, 0.38) 51.04%, #42372d 92.19%), url(/imgs/background.jpg) center no-repeat;
@@ -319,11 +308,6 @@ input {
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.description {
-  padding: 10px;
-  width: calc(100% - 20px);
 }
 
 .services-item {
@@ -342,19 +326,10 @@ input {
   font-size: 24px;
   align-items: center;
   margin-top: 20px;
-}
-@media ((max-width: 650px)) {
-  .contact-list__header {
-    font-size: 12px;
-    margin-top: 10px;
-  }
+  margin-left: 10px;
 }
 
 .contact-list__text {
   font-size: 20px;
-}
-@media ((max-width: 650px)) {
-  .contact-list__text {
-    font-size: 12px;
-  }
+  margin-left: 20px;
 }/*# sourceMappingURL=main.css.map */
