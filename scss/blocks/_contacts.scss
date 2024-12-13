@@ -6,16 +6,21 @@
 	align-items: center;
 	margin-top: 20px;
 	margin-left: 10px;
-	// @media ((max-width: 650px)) {
-	// 	font-size: 12px;
-	// 	margin-top: 10px;
-	// }
+	@media ((max-width: 400px)) {
+		font-size: 20px;
+	}
+	@media ((max-width: 270px)) {
+		font-size: 12px;
+	}
 }
 
 .contact-list__text {
 	font-size: 20px;
 	margin-left: 20px;
-	// @media ((max-width: 650px)) {
-	// 	font-size: 12px;
-	// }
+	@media ((max-width: 400px)) {
+		font-size: 12px;
+	}
+	@media ((max-width: 270px)) {
+		font-size: 8px;
+	}
 }

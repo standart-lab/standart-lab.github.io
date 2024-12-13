@@ -269,7 +269,7 @@ input {
     font-size: 38px;
   }
   .h2 {
-    font-size: 28px;
+    font-size: 30px;
   }
   .h3 {
     font-size: 14px;
@@ -282,6 +282,23 @@ input {
   }
 }
 @media screen and (max-width: 400px) {
+  .h1 {
+    font-size: 32px;
+  }
+  .h2 {
+    font-size: 24px;
+  }
+  .h3 {
+    font-size: 12px;
+  }
+  .regular {
+    font-size: 10px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
   .h1 {
     font-size: 28px;
   }
@@ -296,6 +313,11 @@ input {
   }
   .subtitle {
     font-size: 9px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .regular {
+    font-size: 6px;
   }
 }
 .header {
@@ -328,8 +350,28 @@ input {
   margin-top: 20px;
   margin-left: 10px;
 }
+@media ((max-width: 400px)) {
+  .contact-list__header {
+    font-size: 20px;
+  }
+}
+@media ((max-width: 270px)) {
+  .contact-list__header {
+    font-size: 12px;
+  }
+}
 
 .contact-list__text {
   font-size: 20px;
   margin-left: 20px;
+}
+@media ((max-width: 400px)) {
+  .contact-list__text {
+    font-size: 12px;
+  }
+}
+@media ((max-width: 270px)) {
+  .contact-list__text {
+    font-size: 8px;
+  }
 }/*# sourceMappingURL=main.css.map */
