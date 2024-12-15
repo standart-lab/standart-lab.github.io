@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://standart-lab.github.io/sitemap.xml
